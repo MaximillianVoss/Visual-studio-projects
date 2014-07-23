@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="Xmemo.Main_page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Xmemo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FF92D050">
+        <Frame x:Name="Main_frame" Content="Frame" Margin="288,10,10,10" Background="#FF7DBA3C"/>
+        <Button x:ConnectionId='1' Content="Button" HorizontalAlignment="Left" Margin="41,172,0,0" VerticalAlignment="Top"                     />
+        <Button Content="Button" HorizontalAlignment="Left" Margin="41,225,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>
+

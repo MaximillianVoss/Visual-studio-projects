@@ -1,0 +1,74 @@
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\bin\Debug\App.xbf
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\bin\Debug\MainPage.xbf
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\bin\Debug\Xmemo.Windows.xr.xml
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\bin\Debug\Xmemo.Windows.exe
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\bin\Debug\Xmemo.Windows.pdb
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\bin\Debug\resources.pri
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\bin\Debug\AppxManifest.xml
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\bin\Debug\Xmemo.Windows.build.appxrecipe
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\App.g.i.cs
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\App.g.cs
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\MainPage.g.i.cs
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\MainPage.g.cs
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\XamlTypeInfo.g.cs
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\App.xaml
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\App.xbf
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\XamlSaveStateFile.xml
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\MainPage.xaml
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\MainPage.xbf
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\Xmemo.Windows.exe
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\Xmemo.Windows.pdb
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\priconfig.xml
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\priconfig.xml.intermediate
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\layout.resfiles
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\layout.resfiles.intermediate
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\resources.resfiles
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\resources.resfiles.intermediate
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\pri.resfiles
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\pri.resfiles.intermediate
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\qualifiers.txt
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\qualifiers.txt.intermediate
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\александр\documents\visual studio 2013\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\ProjectArchitectures.txt
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\bin\Debug\App.xbf
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\bin\Debug\Xmemo.Windows.xr.xml
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\bin\Debug\Xmemo.Windows.exe
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\bin\Debug\Xmemo.Windows.pdb
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\bin\Debug\resources.pri
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\bin\Debug\AppxManifest.xml
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\bin\Debug\Xmemo.Windows.build.appxrecipe
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\App.g.i.cs
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\App.g.cs
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\App.xaml
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\App.xbf
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\Xmemo.Windows.exe
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\Xmemo.Windows.pdb
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\priconfig.xml
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\priconfig.xml.intermediate
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\layout.resfiles
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\layout.resfiles.intermediate
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\resources.resfiles
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\resources.resfiles.intermediate
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\pri.resfiles
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\pri.resfiles.intermediate
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\qualifiers.txt
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\ProjectArchitectures.txt
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\bin\Debug\Pages\Main page.xbf
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\bin\Debug\Pages\Memo list.xbf
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\bin\Debug\Pages\Memo Edit page.xbf
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\Pages\Main page.g.i.cs
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\Pages\Main page.g.cs
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\Pages\Memo list.g.i.cs
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\Pages\Memo list.g.cs
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\Pages\Memo Edit page.g.i.cs
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\Pages\Memo Edit page.g.cs
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\Pages\Main page.xaml
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\Pages\Memo list.xaml
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\Pages\Main page.xbf
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\Pages\Memo list.xbf
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\Pages\Memo Edit page.xaml
+C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\Pages\Memo Edit page.xbf

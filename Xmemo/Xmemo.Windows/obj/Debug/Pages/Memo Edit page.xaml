@@ -1,0 +1,233 @@
+﻿<Page
+    x:Class="Xmemo.Memo_Edit_page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Xmemo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <CollectionViewSource x:Name="MemoColors" IsSourceGrouped="true" ItemsPath="Colors"/>
+        <CollectionViewSource x:Name="TextColors" IsSourceGrouped="true" ItemsPath="Colors"/>
+    </Page.Resources>
+
+    <Grid Background="#FFCECFCC">
+        <Grid.Transitions>
+            <TransitionCollection>
+                <EdgeUIThemeTransition/>
+            </TransitionCollection>
+        </Grid.Transitions>
+        <Grid Background="#FF219AD1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="190*"/>
+                <ColumnDefinition Width="305*"/>
+                <ColumnDefinition Width="190*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition/>
+                <RowDefinition Height="71"/>
+            </Grid.RowDefinitions>
+            <Grid Background="#FF20B9FF" Grid.ColumnSpan="3">
+                <TextBlock x:Uid="Memo_edit_title" Margin="10" TextWrapping="Wrap" Text="Edit your memo править" FontSize="48" FontFamily="Segoe Print" FontWeight="Light" Foreground="#FFF6F6F6"/>
+            </Grid>
+            <Grid Grid.Row="2" Background="#FF00ACFB" Grid.Column="1">
+                <Grid.Transitions>
+                    <TransitionCollection>
+                        <EdgeUIThemeTransition Edge="Right"/>
+                    </TransitionCollection>
+                </Grid.Transitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto" MinHeight="54"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid Background="#FF37D0A4" Margin="0">
+                    <Grid.Transitions>
+                        <TransitionCollection/>
+                    </Grid.Transitions>
+                    <TextBox x:Uid="name_textblock" x:Name="name_txtblck" TextWrapping="Wrap" Text="Enter name" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="24" Foreground="#FF363636" FontWeight="SemiLight" Margin="0" FontFamily="Segoe Print" IsSpellCheckEnabled="True"/>
+                </Grid>
+                <Grid Margin="0" Background="#FF00ACFB" Grid.Row="2">
+                    <Grid.Transitions>
+                        <TransitionCollection/>
+                    </Grid.Transitions>
+                    <TextBox x:Uid="theme_textblock" x:Name="theme_textblck" TextWrapping="Wrap" Text="Enter theme" FontSize="24" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF363636" FontWeight="SemiLight" Margin="0" FontFamily="Segoe Print"/>
+                </Grid>
+                <RichEditBox x:Name="memo_text" Grid.Row="3" Background="#FF963CFF" BorderBrush="#FF963CFF" Foreground="#FF363636" FontSize="36" FontFamily="Segoe Script" FontWeight="ExtraLight" TextAlignment="Center" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Padding="15,10"/>
+                <Button x:ConnectionId='1' x:Uid="done_btn" x:Name="Done_btn" Content="Button готово" HorizontalAlignment="Stretch" Margin="-3" Grid.Row="4" VerticalAlignment="Stretch" BorderBrush="#FF84E017" Background="#FF80D21F" Foreground="#FF363636" BorderThickness="0" FontSize="36" FontFamily="Segoe Print"                       >
+                    <Button.Transitions>
+                        <TransitionCollection/>
+                    </Button.Transitions>
+                </Button>
+            </Grid>
+        </Grid>
+    </Grid>
+    <Page.BottomAppBar>
+        <AppBar BorderBrush="{x:Null}" Foreground="{x:Null}" Background="{x:Null}" Height="280">
+            <Grid x:Name="color_grid" Background="#FF2E6A86">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" MinHeight="50"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.Transitions>
+                    <TransitionCollection/>
+                </Grid.Transitions>
+                <SemanticZoom x:Name="semanticZoom" Margin="0" RenderTransformOrigin="0.5,0.5" Grid.Row="1">
+                    <SemanticZoom.Transitions>
+                        <TransitionCollection>
+                            <EntranceThemeTransition FromHorizontalOffset="-1920"/>
+                        </TransitionCollection>
+                    </SemanticZoom.Transitions>
+                    <SemanticZoom.ZoomedInView>
+                        <GridView x:ConnectionId='2' x:Name="Color_picker" Grid.Row="1" ItemsSource="{Binding Source={StaticResource MemoColors}}" SelectionMode="Single"  Margin="0"                                                  Padding="0">
+                            <GridView.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid HorizontalAlignment="Left"  Width="120" Height="120" Background="{Binding value}">
+                                        <StackPanel VerticalAlignment="Center" Background="{x:Null}" HorizontalAlignment="Center" Margin="15,0">
+                                            <TextBlock Text="{Binding name}" FontSize="20" FontFamily="Segoe Print" TextTrimming="CharacterEllipsis" FontWeight="Normal" Margin="0" Foreground="#FF363636" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                        </StackPanel>
+                                    </Grid>
+                                </DataTemplate>
+                            </GridView.ItemTemplate>
+                            <GridView.GroupStyle>
+                                <GroupStyle>
+                                    <GroupStyle.HeaderTemplate>
+                                        <DataTemplate>
+                                            <Grid Margin="1,0,0,3" Background="{x:Null}">
+                                                <Button BorderBrush="{x:Null}" Background="{x:Null}" >
+                                                    <StackPanel Orientation="Horizontal" Background="{x:Null}" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                                        <TextBlock Text="{Binding group_name}" Margin="2" FontSize="24" FontFamily="Segoe Print" SelectionHighlightColor="{x:Null}" FontWeight="SemiBold" Foreground="White" />
+                                                    </StackPanel>
+                                                </Button>
+                                            </Grid>
+                                        </DataTemplate>
+                                    </GroupStyle.HeaderTemplate>
+                                    <GroupStyle.Panel>
+                                        <ItemsPanelTemplate>
+                                            <VariableSizedWrapGrid Orientation="Vertical"  Margin="15,0" ItemWidth="120" ItemHeight="120" Background="{x:Null}"/>
+                                        </ItemsPanelTemplate>
+                                    </GroupStyle.Panel>
+                                </GroupStyle>
+                            </GridView.GroupStyle>
+                            <GridView.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <VirtualizingStackPanel Orientation="Horizontal"/>
+                                </ItemsPanelTemplate>
+                            </GridView.ItemsPanel>
+                        </GridView>
+                    </SemanticZoom.ZoomedInView>
+                    <SemanticZoom.ZoomedOutView>
+                        <GridView x:Name="gvZoomedOut" SelectionMode="None" Padding="116,37,40,46" Margin="0,0,0,0">
+                            <GridView.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid Background="Gainsboro" Height="120" Width="120">
+                                        <TextBlock Text="{Binding Group.group_name}" FontSize="48" FontWeight="SemiBold" TextWrapping="NoWrap" FontStretch="Normal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10" TextTrimming="CharacterEllipsis" Foreground="#FF515151" FontFamily="Segoe Print"/>
+                                    </Grid>
+                                </DataTemplate>
+                            </GridView.ItemTemplate>
+                            <GridView.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <WrapGrid  ItemWidth="120" ItemHeight="120"   MaximumRowsOrColumns="5" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                                </ItemsPanelTemplate>
+                            </GridView.ItemsPanel>
+                        </GridView>
+                    </SemanticZoom.ZoomedOutView>
+                </SemanticZoom>
+                <TextBlock x:Uid="appbar_textblock" HorizontalAlignment="Center" Margin="0" TextWrapping="Wrap" Text="Choose color" VerticalAlignment="Center" Foreground="#FFF8F1F1" FontFamily="Segoe Print" FontSize="36" FontWeight="SemiBold">
+                    <TextBlock.Transitions>
+                        <TransitionCollection>
+                            <ContentThemeTransition HorizontalOffset="-1920"/>
+                        </TransitionCollection>
+                    </TextBlock.Transitions>
+                </TextBlock>
+            </Grid>
+        </AppBar>
+    </Page.BottomAppBar>
+    <Page.TopAppBar>
+        <AppBar BorderBrush="{x:Null}" Foreground="{x:Null}" Background="{x:Null}" Height="280">
+            <Grid x:Name="text_color_grid" Background="#FF2E6A86">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.Transitions>
+                    <TransitionCollection/>
+                </Grid.Transitions>
+                <SemanticZoom x:Name="text_semanticZoom" RenderTransformOrigin="0.5,0.5">
+                    <SemanticZoom.Transitions>
+                        <TransitionCollection>
+                            <EntranceThemeTransition FromHorizontalOffset="1920"/>
+                        </TransitionCollection>
+                    </SemanticZoom.Transitions>
+                    <SemanticZoom.ZoomedInView>
+                        <GridView x:ConnectionId='3' x:Name="Text_color_picker" Grid.Row="1" ItemsSource="{Binding Source={StaticResource TextColors}}" SelectionMode="Single"  Margin="0"                                                       Padding="0">
+                            <GridView.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid HorizontalAlignment="Left"  Width="120" Height="120" Background="{Binding value}">
+                                        <StackPanel VerticalAlignment="Center" Background="{x:Null}" HorizontalAlignment="Center" Margin="15,0">
+                                            <TextBlock Text="{Binding name}" FontSize="20" FontFamily="Segoe Print" TextTrimming="CharacterEllipsis" FontWeight="Normal" Margin="0" Foreground="#FF363636" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                        </StackPanel>
+                                    </Grid>
+                                </DataTemplate>
+                            </GridView.ItemTemplate>
+                            <GridView.GroupStyle>
+                                <GroupStyle>
+                                    <GroupStyle.HeaderTemplate>
+                                        <DataTemplate>
+                                            <Grid Margin="1,0,0,3" Background="{x:Null}">
+                                                <Button BorderBrush="{x:Null}" Background="{x:Null}" >
+                                                    <StackPanel Orientation="Horizontal" Background="{x:Null}" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                                        <TextBlock Text="{Binding group_name}" Margin="2" FontSize="24" FontFamily="Segoe Print" SelectionHighlightColor="{x:Null}" FontWeight="SemiBold" Foreground="White" />
+                                                    </StackPanel>
+                                                </Button>
+                                            </Grid>
+                                        </DataTemplate>
+                                    </GroupStyle.HeaderTemplate>
+                                    <GroupStyle.Panel>
+                                        <ItemsPanelTemplate>
+                                            <VariableSizedWrapGrid Orientation="Vertical"  Margin="15,0" ItemWidth="120" ItemHeight="120" Background="{x:Null}"/>
+                                        </ItemsPanelTemplate>
+                                    </GroupStyle.Panel>
+                                </GroupStyle>
+                            </GridView.GroupStyle>
+                            <GridView.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <VirtualizingStackPanel Orientation="Horizontal"/>
+                                </ItemsPanelTemplate>
+                            </GridView.ItemsPanel>
+                        </GridView>
+                    </SemanticZoom.ZoomedInView>
+                    <SemanticZoom.ZoomedOutView>
+                        <GridView x:Name="text_gvZoomedOut" SelectionMode="None" Padding="116,37,40,46" Margin="0,0,0,0">
+                            <GridView.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid Background="Gainsboro" Height="120" Width="120">
+                                        <TextBlock Text="{Binding Group.group_name}" FontSize="48" FontWeight="SemiBold" TextWrapping="NoWrap" FontStretch="Normal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10" TextTrimming="CharacterEllipsis" Foreground="#FF515151" FontFamily="Segoe Print"/>
+                                    </Grid>
+                                </DataTemplate>
+                            </GridView.ItemTemplate>
+                            <GridView.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <WrapGrid  ItemWidth="120" ItemHeight="120"   MaximumRowsOrColumns="5" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                                </ItemsPanelTemplate>
+                            </GridView.ItemsPanel>
+                        </GridView>
+                    </SemanticZoom.ZoomedOutView>
+                </SemanticZoom>
+                <TextBlock x:Uid="top_appbar_textblock" HorizontalAlignment="Center" Margin="536,0,580,0" TextWrapping="Wrap" Text="Choose color" Foreground="#FFF8F1F1" FontFamily="Segoe Print" FontSize="36" FontWeight="SemiBold" Grid.Row="1">
+                    <TextBlock.Transitions>
+                        <TransitionCollection>
+                            <ContentThemeTransition HorizontalOffset="1920"/>
+                        </TransitionCollection>
+                    </TextBlock.Transitions>
+                </TextBlock>
+            </Grid>
+        </AppBar>
+    </Page.TopAppBar>
+</Page>
+

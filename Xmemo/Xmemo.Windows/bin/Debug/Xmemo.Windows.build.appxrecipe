@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ALEXANDERPC</Machine>
+    <WindowsUser>Александр</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>8bede279-dcb7-4553-abd6-68f27ea24b4c</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\bin\Debug\Xmemo.Windows.exe">
+      <PackagePath>Xmemo.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\Assets\colors.xml">
+      <PackagePath>Assets\colors.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\Assets\SmallLogo.scale-140.png">
+      <PackagePath>Assets\SmallLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\Assets\SmallLogo.scale-180.png">
+      <PackagePath>Assets\SmallLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\Assets\SplashScreen.scale-140.png">
+      <PackagePath>Assets\SplashScreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\Assets\SplashScreen.scale-180.png">
+      <PackagePath>Assets\SplashScreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\Assets\Xmemo logo 1116x540.png">
+      <PackagePath>Assets\Xmemo logo 1116x540.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\Assets\Xmemo logo 150x150.png">
+      <PackagePath>Assets\Xmemo logo 150x150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\Assets\Xmemo logo 248x120.scale-80.png">
+      <PackagePath>Assets\Xmemo logo 248x120.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\Assets\Xmemo logo 248x248.scale-80.png">
+      <PackagePath>Assets\Xmemo logo 248x248.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\Assets\Xmemo logo 30x30.png">
+      <PackagePath>Assets\Xmemo logo 30x30.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\Assets\Xmemo logo 42x42.png">
+      <PackagePath>Assets\Xmemo logo 42x42.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\Assets\Xmemo logo 50x50.png">
+      <PackagePath>Assets\Xmemo logo 50x50.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\Assets\Xmemo logo 54x54.png">
+      <PackagePath>Assets\Xmemo logo 54x54.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\Assets\Xmemo logo 620x300.png">
+      <PackagePath>Assets\Xmemo logo 620x300.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\Assets\Xmemo logo 868x420.png">
+      <PackagePath>Assets\Xmemo logo 868x420.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\Assets\Xmemo logo.png">
+      <PackagePath>Assets\Xmemo logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\bin\Debug\Pages\Main page.xbf">
+      <PackagePath>Pages\Main page.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\bin\Debug\Pages\Memo list.xbf">
+      <PackagePath>Pages\Memo list.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\bin\Debug\Pages\Memo Edit page.xbf">
+      <PackagePath>Pages\Memo Edit page.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\bin\Debug\Xmemo.Windows.xr.xml">
+      <PackagePath>Xmemo.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Александр\OneDrive\Projects\Xmemo\Xmemo\Xmemo.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
